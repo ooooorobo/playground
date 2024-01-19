@@ -44,17 +44,11 @@
     ],
     /* Interop Constraints */
     "allowSyntheticDefaultImports": false,
-    // for single-file transpilation
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true
   },
   "include": [
     "src"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
   ]
 }

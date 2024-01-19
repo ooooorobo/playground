@@ -8,6 +8,8 @@ todo
   - verbatimModuleSyntax
 - [ ] gitignore
 - [ ] storybook
+- [ ] jest
+- [ ] react-testing-library
 
 ## TS
 
