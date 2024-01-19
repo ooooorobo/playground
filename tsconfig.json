@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": [
+        "./*"
+      ]
+    },
+    /* Modules */
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    /* Emit */
+    "noEmit": true,
+    "removeComments": true,
+    /* Lang and Env */
+    "jsx": "react-jsx",
+    "jsxImportSource": "solid-js",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "useDefineForClassFields": true,
+    /* Linting */
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    /* Editor Support */
+    "plugins": [
+      //      {
+      //        "name": "@styled/typescript-styled-plugin"
+      //      }
+    ],
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": false,
+    // for single-file transpilation
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
