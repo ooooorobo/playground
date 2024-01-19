@@ -1,7 +1,7 @@
 todo
 
 - [ ] eslint
-- [ ] prettier
+- [x] prettier
 - [x] tsconfig
   - isolatedModules
   - noEmit
@@ -24,12 +24,26 @@ npm i -D typescript
 - [tsconfig.json](./tsconfig.json)
 
 
-### 커맨드
+### CLI
 
-```json
-{
-  "script": {
-    "check-ts": "tsc"
-  }
-}
+```sh
+tsc
+```
+
+## Prettier
+
+### 설치
+
+```shell
+npm i -D prettier
+```
+
+### 연관 파일
+
+- [.prettierrc](.prettierrc)
+
+### CLI
+
+```sh
+prettier src --write
 ```
